@@ -18,7 +18,7 @@ def generate_qrcode(url, dark_colour):
 def generate_qrcode_page():
     # place an image
     # you can either download an image, or include the image file path
-    st.image("images/main_banner.png")
+    st.image("main_banner.png")
 
     # place a title
     st.title("THE QR CODE GENERATOR")
@@ -39,7 +39,7 @@ def generate_qrcode_page():
         # generate a qr code
         generate_qrcode(url, dark_colour)
         # place the qr code
-        st.image("images/qrcode_streamlit.png",
+        st.image("qrcode_streamlit.png",
                  caption="My Generated QR Code")
 
     # warning for when user clicks on button without a url
