@@ -19,5 +19,5 @@ elif page_selection == "Decode QR Code":
     decode_qrcode_page()
 elif page_selection == "About Me":
     st.write("HI! My Name is Svea ❤️")
-    st.image("images/me.png",
+    st.image("me.png",
              caption="MEEEE")
