@@ -1,3 +1,4 @@
 .streamlit/secrets.toml
 Sources
 To-Do
+__pycache__
