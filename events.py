@@ -20,6 +20,9 @@ with c4:
 # place divider
 st.markdown("___")
 
+# display a subheader
+st.subheader("Calendar")
+
 # display another subtitle for the calender-section
 st.markdown("*Do you want to visit me at the next market or join a jewelery making event? Then have a look at my calendar and save the dates to your own calendar!*")
 

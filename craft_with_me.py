@@ -39,7 +39,7 @@ with tabs2:
     tabs2.subheader("image search")
 
     # Display the subtitle
-    st.markdown("*Search for inspirational images*")
+    st.markdown("*Search for inspirational images. Try it with summer holiday or fashion show!*")
 
     # display banner image
     st.image("images/banners/image_search_banner.png")
@@ -49,8 +49,8 @@ with tabs2:
 
     # Get researched image
     # create a text box in streamlit
-    search_word = st.text_input(
-        "What image do you need to see for inspiration? Try it with summer holiday or fashion show!")
+    search_word = st.chat_input(
+        "Enter image search here")
 
     # show three images
     if search_word:
@@ -77,7 +77,7 @@ with tabs3:
     tabs3.subheader("Get help from Lynn")
 
     # display the subtitle
-    st.markdown("*get help from your diy-assistant Lynn with your questions regarding the crafting process*")
+    st.markdown("*Get help from your diy-assistant Lynn with your questions regarding the crafting process*")
 
     # use columns to place content next to another
     c1, c2 = st.columns(2)
@@ -85,6 +85,8 @@ with tabs3:
         # display image of chatbot
         st.image("images/chatbot.jpg", caption="Lynn image created by copilot")
     with c2:
+        # headline for better usability
+        st.markdown("**FAQ**")
         # use expanders to show and hide answers
         expander = st.expander("What wire should I use?")
         expander.write('''
@@ -97,6 +99,14 @@ with tabs3:
         expander = st.expander("Why does my wire not look shiny and sleek?")
         expander.write('''
                     Make sure to not bend the wire unnecessary often. Also make sure to not push the wire to hard with your pliers.
+                ''')
+        expander = st.expander("Where can I find good pearls?")
+        expander.write('''
+                    Try to look for your pearls in second hand shops or ask your friends ans family for old jewelery they do not need anymore.
+                ''')
+        expander = st.expander("Do I need experience in jewerly making?")
+        expander.write('''
+                    No! You can start with easy designs and will get better from time to time. ut even easy designs look qualitative and chic!
                 ''')
 
 

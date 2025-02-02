@@ -12,7 +12,7 @@ with c1:
     # add white space
     st.write(" ")
     st.subheader("Hi there!")
-    st.markdown("I am more than happy to welcome you on my app! I am Svea, and I’ve found my passion in upcycling earrings. With this page I want to share my lovely hobby.")
+    st.markdown("I am more than happy to welcome you on my app! I am Svea, and I’ve found my passion in upcycling earrings. With this page I want to share my lovely hobby. This page is promoting my own earrings and events as well as it helps you with your own upcycling jewelery journey!")
     st.markdown("Lots of Love, Svea")
 
 with c2:
@@ -21,6 +21,9 @@ with c2:
 
 # place divider
 st.markdown("___")
+
+# add subheader for better usability
+st.subheader("Tutorial")
 
 # add expander to show the tutorial
 expander = st.expander("Click here to see the tutorial")
