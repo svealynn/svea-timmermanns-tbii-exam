@@ -101,17 +101,17 @@ with tabs3:
 
 
 
-        # user message
-        prompt = st.chat_input("Enter an individual question")
+    # user message
+    prompt = st.chat_input("Enter an individual question")
 
-        if prompt:
-            with st.chat_message("assistant"):
-                # add info, user feedback in case hugchat does not work
-                with st.spinner("Thinking... Please note, that my system might be overrunning and I can't guarantee an answer"):
-                    response = generate_response(prompt)
+    if prompt:
+        with st.chat_message("assistant"):
+            # add info, user feedback in case hugchat does not work
+            with st.spinner("Thinking... Please note, that my system might be overrunning and I can't guarantee an answer"):
+                response = generate_response(prompt)
 
-                    # user friendly presentation of the response
-                    st.markdown(response)
+                # user friendly presentation of the response
+                st.markdown(response)
 
 # click to play chill music
 st.markdown("---")
