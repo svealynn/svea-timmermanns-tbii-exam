@@ -36,7 +36,16 @@ if enter_address:
 
     # give user feedback of something is not working
     except:
-        st.warning("Sorry, that did not work")
+        st.warning("Sorry, that did not work. Just send me a message via Instagram!")
+
+# add white space
+st.write("")
+
+# add instagram
+st.markdown("Follow me on Instagram! @handgemacht.von.svea")
+
+# button that leads to the pinterest homepage
+st.link_button("Open Instagram", "https://www.instagram.com/handgemacht.von.svea/", use_container_width=True)
 
 # add information at the end of the page using html
 st.markdown(
