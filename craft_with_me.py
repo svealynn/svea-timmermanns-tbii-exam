@@ -9,13 +9,13 @@ st.header("CRAFT WITH ME", divider="orange")
 st.markdown("*Are you inspired? Now it is your turn! Get cozy and start your upcycling jewelry journey with me :)*")
 
 #create tabs for navigation
-tabs1, tabs2, tabs3 = st.tabs(["pinterest-board", "image search", "help"])
+tabs1, tabs2, tabs3 = st.tabs(["Pinterest-Board", "Image Search", "Get Help"])
 
 # use tab1 for pinterest board
 with tabs1:
 
     # place subheader
-    tabs1.subheader("pinterest-board")
+    tabs1.subheader("Pinterest-Board")
 
     # Display the subtitle
     st.markdown("*Have a look at my pinterest board for inspiration*")
@@ -36,7 +36,7 @@ with tabs1:
 with tabs2:
 
     # place subheader
-    tabs2.subheader("image search")
+    tabs2.subheader("Image Search")
 
     # Display the subtitle
     st.markdown("*Search for inspirational images. Try it with summer holiday or fashion show!*")
@@ -74,7 +74,7 @@ with tabs2:
 with tabs3:
 
     # place subheader
-    tabs3.subheader("Get help from Lynn")
+    tabs3.subheader("Get Help from Lynn")
 
     # display the subtitle
     st.markdown("*Get help from your diy-assistant Lynn with your questions regarding the crafting process*")

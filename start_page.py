@@ -12,7 +12,7 @@ with c1:
     # add white space
     st.write(" ")
     st.subheader("Hi there!")
-    st.markdown("I am more than happy to welcome you on my app! I am Svea, and I’ve found my passion in upcycling earrings. With this page I want to share my lovely hobby. This page is promoting my own earrings and events as well as it helps you with your own upcycling jewelery journey!")
+    st.markdown("I am more than happy to welcome you on my app! I am Svea, and I’ve found my passion in upcycling earrings. With this page I want to share my lovely hobby. This page is promoting my own earrings and events as well as it helps you with your own upcycling jewelry journey!")
     st.markdown("Lots of Love, Svea")
 
 with c2:
@@ -71,7 +71,7 @@ with expander:
         # display image
         st.image("images/start_page/sign_up.png")
         # display description
-        st.markdown("If you want to support me and my hobby, make shure to **sign up** for my newsletter.")
+        st.markdown("If you want to support me and my hobby, make sure to **sign up** for my newsletter.")
 
     # display image
     container3.image("images/start_page/craft_with_me.png")

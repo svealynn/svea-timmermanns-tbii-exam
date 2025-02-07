@@ -23,7 +23,7 @@ c1.image("images/me1.jpg", width=300)
 c2.subheader ("About me")
 
 # place text
-c2.markdown("Hi there! I'm Svea, and I’ve found my passion in upcycling old pearls into new, unique earrings. Explore my website to find the perfect earrings that match your style... or even get creative by yourself!")
+c2.markdown("Hey! I'm Svea, and I’ve found my passion in upcycling old pearls into new, unique earrings. Explore my website to find the perfect earrings that match your style... or even get creative by yourself!")
 
 # place divider
 container2.markdown("___")
